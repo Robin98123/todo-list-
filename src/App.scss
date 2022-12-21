@@ -67,16 +67,16 @@ opacity: 0.3;
   /** CHECKBOX*/
 /* Original styles by Shaw : https://codepen.io/shshaw/pen/WXMdwE */
 $duration: 0.4s;
-$stroke: #42d7e4;
-$colorText: #076b74;
-$colorTextChecked: #a5e7ec;
+$stroke: #0a8792;
+$colorText: #6200ff;
+$colorTextChecked: #00eeff;
 .todo {
 display: block;
 position: relative;
 padding: 1em 1em 1em 16%;
 margin: 0 auto;
 cursor: pointer;
-border-bottom: solid 1px #ddd;
+border-bottom: solid 1px rgb(178, 178, 178);
 &:last-child { border-bottom: none; }
 }
 .todo.new-item {
